@@ -107,6 +107,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 }
             }
         }
+        
         if contact.bodyA.node?.name == "loseZone" ||
             contact.bodyB.node?.name == "loseZone" {
             lives -= 1
